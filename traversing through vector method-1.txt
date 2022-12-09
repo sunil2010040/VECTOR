@@ -1,0 +1,22 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main()
+{
+    vector<string>v;  //syntax: vector <data type>variable
+    v.push_back("my");
+    v.push_back("name");
+    v.push_back("sunil");
+    v.push_back("kumar");
+    
+    for(int i=0;i<v.size();i++)
+    {
+        cout<<v[i]<<" ";
+    }
+    
+    return 0;
+}
+
+OUTPUT:
+
+my name sunil kumar 
