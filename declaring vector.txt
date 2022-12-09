@@ -1,0 +1,14 @@
+#include<iostream>
+#include<vector>
+using namespace std;
+int main()
+{
+    vector<string>v;  //syntax: vector <data type>variable
+    v.push_back("my");
+    v.push_back("name");
+    v.push_back("sunil");
+    v.push_back("kumar");
+	
+    return 0;
+}
+
