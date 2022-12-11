@@ -1,0 +1,43 @@
+#include<iostream>
+#include<vector>
+#include<iterator>
+using namespace std;
+int main()
+{
+    vector<string>v;  //syntax: vector <data type>variable
+    v.push_back("my");
+    v.push_back("name");
+    v.push_back("sunil");
+    v.push_back("kumar");
+
+    vector<string>v2(5,"50");
+    
+    swap(v,v2);
+    
+    for(auto element:v)
+    {
+        cout<<element<<endl;    
+    }
+    
+    cout<<endl;
+    for(auto element:v2)
+    {
+        cout<<element<<endl;    
+    }
+    
+    return 0;
+}
+
+
+OUTPUT:
+
+50
+50
+50
+50
+50
+
+my
+name
+sunil
+kumar
